@@ -1,0 +1,290 @@
+body
+{
+    background: rgb(8,151,164);
+    background: linear-gradient(90deg, rgba(8,151,164,1) 0%, rgba(55,54,136,1) 13%, rgba(78,9,121,1) 24%, rgba(155,35,194,1) 56%, rgba(160,34,192,1) 62%, rgba(183,29,185,1) 69%, rgba(225,18,123,1) 91%, rgba(255,0,95,1) 100%);
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    width:1000px;
+    margin: auto;
+}
+#ButtonHolder
+{
+    text-align: center;
+}
+#QuestionHolder
+{
+    height:auto;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.Buttons_
+{
+    width: 200px;
+    height:55px;
+    border-radius: 15px;
+    background-color: #fff;
+    color:#454545;
+    font-size: 20px;
+    margin: 50px;
+    margin-bottom: 15px;
+    transition: 0.25s all ease-in-out;
+}
+.Buttons_:hover
+{
+    background-color: rgb(132, 193, 214);
+    cursor: pointer;
+}
+#TakeName
+{
+    font-size: 32px;
+    width: 500px;
+    text-align: center;
+    padding: 20px 5px;
+    margin: auto;
+    border: 2px solid #fff;
+    border-radius: 12px;
+}
+#NameTaker
+{
+    width: 300px;
+    height:65px;
+    border-radius: 15px;
+    font-size: 22px;
+}
+#Hedder
+{
+    font-size: 38px;
+    padding: 15px 0;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+.QuestionFieldset
+{
+    display: block;
+    margin: auto;
+    width: 700px;
+    border-radius: 10px;
+    border: 3px solid white;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.DisplayContentsClass
+{
+    display: contents;
+}
+.Question
+{
+    display: block;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Answer
+{
+    width:320px;
+    float: left;
+    font-size: 20px;
+    height: 100px;
+    padding: 10px;
+}
+.RadioButtonAndCheckBox
+{
+    cursor: pointer;
+    box-sizing: border-box;
+    appearance: none;
+    outline: 2px solid #222;
+    border: 3px solid white;
+    width: 16px;
+    height: 16px;
+    background: white;
+    border-radius: 5px;
+}
+.RadioButtonAndCheckBox:checked
+{
+    background-color: #222;
+}
+#QuestionNumber
+{
+    margin-top: 15px;
+    margin-bottom: 35px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    width: max-content;
+    padding: 15px 20px;
+    visibility: hidden;
+}
+.SelectQuestion
+{
+    width: 240px;
+    height:55px;
+    font-size: 24px;
+    border-radius: 12px;
+    background-color: #fff;
+    color:#353535
+}
+.SelectOption
+{
+    background-color: #fff;
+    color:#353535
+}
+.SelectOption:checked
+{
+    background-color: #444;
+    color: #fff;
+}
+.TextQuestion
+{
+    width: 320px;
+    height:50px;
+    font-size: 24px;
+    border-radius: 12px;
+    background-color: #fff;
+    color:#353535
+}
+.scoreboard
+{
+    width: fit-content  ;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    margin: auto;
+}
+.ScoreDiv
+{
+    background-color: rgba(18, 7, 55, 0.5); 
+    width: 380px;
+    margin: 5px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    padding: 19px 0 ;
+    float: left;
+    font-size: 23px; 
+    height: 212px; 
+}
+.ScoreDivWTF
+{
+    width: 380px;
+    background-color: rgba(18, 7, 55, 0.5);
+    margin: 5px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    padding: 30px 0 ;
+    float: left;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    height: 190px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#UserAnsDiv{
+    -webkit-text-stroke: 0.5px rgba(11, 1, 43, 0.872); 
+}
+.Column
+{
+    background-color: rgba(18, 7, 55, 0.5);
+    -webkit-text-stroke: 0.5px rgba(11, 1, 43, 0.872); 
+    width: 380px;
+    margin: 5px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    padding: 20px 0;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+}
+#Alert
+{
+    width: 680px;
+    margin: 20px 150px;
+    display: inline-block;
+    background-color: #fff;
+    color:#db2114;
+    font-size: 24px;
+    border-radius: 15px;
+    padding: 0px 10px;
+}
+#CloseAlert
+{
+    display: none;
+}
+#CloseAlertLabel
+{
+    cursor: pointer;
+}
+#AlertText
+{
+    width: 90%;
+    text-align: center;
+    float: right; 
+    height: 50px;
+}
+#AlertCloseDiv
+{
+    height: 50px;
+    width: 10%;
+    text-align: right;
+    float: right;
+}
+#ScoreBoardEater
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    text-align: center;
+}
+.BadAnswer
+{
+    display: block;
+    border: 2px solid red;
+    width: 23px;
+    height: 23px;
+    border-radius: 100px;
+    padding:  3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-right: 10px;
+    font-size: 22px;
+}
+.CorrectAnswer
+{
+    display: block;
+    border: 2px solid rgb(13, 192, 22);
+    width: 23px;
+    height: 23px;
+    border-radius: 100px;
+    padding:  3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-right: 10px;
+    font-size: 22px;
+}
+.ABCD_Answer    
+{
+    width: 100%;
+    font-size: 18px;
+    margin-left: 5px;
+    color: red;
+}
+
+.histhack {
+    font-size: 18px;
+    padding: 15px 0;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 12px;
+}
